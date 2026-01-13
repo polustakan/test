@@ -1,2 +1,9 @@
-Hello
-rodip ajdolov
+ do{
+       if (tk<=100){
+           do {
+               tk+=10;
+           }while(tk<150);
+       }  
+       System.out.print(tk+"\t");
+       tk--;
+   } while (i!=1);
